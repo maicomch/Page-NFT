@@ -1,0 +1,5 @@
+body {
+  background-color: #1c121f;
+  background-image: url(../img/blurrEffect.png);
+  z-index: 1;
+}
