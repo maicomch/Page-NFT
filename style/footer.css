@@ -1,7 +1,7 @@
 footer {
     display: flex;
     background-color: #251928;
-    padding: 109px 0px;
+    padding: 109px 80px;
     justify-content: space-between;
 }
 
@@ -84,4 +84,18 @@ footer .social-media .text-social-media {
 
 .social-icons {
     padding: 20px 0px
+}
+
+.about-us-list {
+    font-size: 20px;
+    font-weight: 500;
+    width: 132px;
+    height: 202px;
+}
+
+.support-list {
+    font-size: 20px;
+    font-weight: 500;
+    width: 149px;
+    height: 202px;
 }
