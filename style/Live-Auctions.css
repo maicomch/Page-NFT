@@ -1,11 +1,24 @@
-.title-live {
+.color-title-live {
+  background-color: #8613a5;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-right: 388px;
   margin-top: 40px;
+}
+.title-live {
   display: flex;
   justify-content: center;
+  position: relative;
+}
+
+.title-live h2 {
   font-family: Oxanium;
   font-style: bold;
   font-weight: 700;
-  font-size: 64px;
+  font-size: 4rem;
   color: #f5fbf2;
 }
 
@@ -19,8 +32,8 @@
 }
 
 .icon-arrow img {
-  max-width: 54px;
-  max-height: 54px;
+  width: 54px;
+  height: 54px;
 }
 
 .imagens-informations-live {
@@ -29,12 +42,21 @@
   gap: 30px;
 }
 
+.imagens-item {
+  background-color: #3d2942;
+  max-width: 495px;
+  max-height: 691px;
+  padding: 32px;
+}
+.imagen {
+  position: relative;
+}
 .imagen-time {
   background: linear-gradient(#8613a5, rgba(250, 250, 250, 0.65));
   width: 194px;
   height: 66px;
   position: absolute;
-  top: 152rem;
+  top: 296px;
   border-radius: 2px;
 }
 
@@ -45,14 +67,7 @@
   font-family: Work Sans;
 }
 
-.imagen-item {
-  background-color: #3d2942;
-  max-width: 495px;
-  max-height: 691px;
-  padding: 32px;
-}
-
-.imagen-item img {
+.imagen img {
   max-width: 431px;
   max-height: 359px;
 }
@@ -129,6 +144,23 @@
   height: 78px;
   background-color: rgba(233, 215, 167, 0.1);
   border: solid #fde8b3;
+  color: #ffffff;
+  font-family: Work Sans;
+  font-weight: medium;
+  font-size: 24px;
+}
+.botao-view {
+  display: flex;
+  margin-top: 80px;
+  justify-content: center;
+}
+
+.botao-btn-view {
+  background: linear-gradient(#251928, rgba(37, 25, 40, 0));
+  margin-bottom: 80px;
+  width: 257px;
+  height: 84px;
+  border: solid #ffce4e;
   color: #ffffff;
   font-family: Work Sans;
   font-weight: medium;
