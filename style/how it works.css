@@ -1,0 +1,51 @@
+.subtitle-explain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.subtitle-explain h3 {
+  font-family: Oxanium;
+  font-style: bold;
+  font-size: 4rem;
+  color: #f5fbf2;
+}
+.explain {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 12rem;
+}
+.imagens-works {
+  background-color: #372839;
+  width: 106px;
+  height: 106px;
+  border-radius: 100%;
+}
+.imagens-works img {
+  width: 40px;
+  height: 40px;
+  padding-left: 8px;
+  padding-top: 37px;
+}
+.imagen-sub {
+  position: relative;
+  left: 150px;
+  bottom: 40px;
+}
+.imagen-sub img {
+  width: 166px;
+  height: 15px;
+}
+
+.imagen-subtitle {
+  font-family: Work Sans;
+  font-size: 1.2rem;
+  color: #ffce4e;
+}
+.imagen-subtitle-4 {
+  padding-top: 10px;
+  font-family: Work Sans;
+  font-size: 1.2rem;
+  color: #ffce4e;
+}

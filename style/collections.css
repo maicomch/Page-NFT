@@ -1,0 +1,100 @@
+.color-sub-title-collection {
+  background-color: #e03054;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-right: 550px;
+  margin-top: 45px;
+}
+
+.title-sub-collection {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.title-sub-collection h3 {
+  font-family: Oxanium;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #f5fbf2;
+}
+.imagens-informations-collections {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+
+.imagen-collections-item {
+  background-color: #3d2942;
+  max-width: 525px;
+  max-height: 432px;
+  padding: 32px;
+  position: relative;
+}
+
+.imagen-collection-item {
+  width: 453px;
+  height: 272px;
+}
+
+.icon-arrow-collection {
+  width: 72px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: 145px;
+  margin-left: 190px;
+}
+
+.icon-arrow img {
+  width: 54px;
+  height: 54px;
+}
+
+.collections-text-informations {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.collections-icon img {
+  width: 64px;
+  height: 64px;
+}
+
+.collections-informations {
+  margin-right: 150px;
+}
+
+.information-wzard {
+  font-family: Work Sans;
+  color: #f5fbf2;
+  font-size: 2rem;
+}
+
+.token {
+  font-family: Work Sans;
+  color: #c2b5c6;
+  font-size: 1.2rem;
+}
+
+.botao-view {
+  display: flex;
+  justify-content: center;
+}
+
+.botao-btn-view {
+  background: linear-gradient(#251928, rgba(37, 25, 40, 0));
+  width: 257px;
+  height: 84px;
+  border: solid #ffce4e;
+  color: #ffffff;
+  font-family: Work Sans;
+  font-weight: medium;
+  font-size: 24px;
+}

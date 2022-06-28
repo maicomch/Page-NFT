@@ -1,0 +1,133 @@
+.color-sub-title-categories {
+  background-color: #8613a5;
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-right: 618px;
+  margin-top: 65px;
+}
+
+.title-sub-categories {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.title-sub-categories h4 {
+  font-family: Oxanium;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 4rem;
+  color: #f5fbf2;
+}
+.imagens-informations-categorie {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.imagen-categorie-item {
+  background-color: #3d2942;
+  max-width: 415px;
+  max-height: 504px;
+  padding: 32px;
+  position: relative;
+}
+
+.botao-btn-categorie {
+  width: 246px;
+  height: 70px;
+  background-color: #ffce4e;
+  position: absolute;
+  right: 100px;
+  bottom: 295px;
+  color: #000000;
+  font-family: Work Sans;
+  font-weight: normal;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.imagen-categorie-item img {
+  width: 351px;
+  height: 306px;
+}
+
+.categorie-text-informations {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categorie-icon-1 img {
+  width: 58px;
+  height: 58px;
+}
+
+.categorie-icon-2 img {
+  width: 24px;
+  height: 22.2px;
+  color: #76607a;
+}
+
+.categorie-information {
+  font-family: Work Sans;
+  color: #f5fbf2;
+  font-size: 1.5rem;
+}
+
+.categorie-information-item {
+  margin-right: 80px;
+}
+
+.categorie-like {
+  color: #76607a;
+  font-family: Work Sans;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.categorie-text-name {
+  font-family: Work Sans;
+  font-size: 1.1rem;
+  color: #bdaac1;
+}
+
+.categorie-information-offer {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.categorie-offer {
+  font-family: Work Sans;
+  font-size: 1.5rem;
+  color: #c6bfc8;
+}
+
+.categorie-value {
+  font-family: Oxanium;
+  font-style: bold;
+  font-size: 1.5rem;
+  color: #f5fbf2;
+}
+
+.botao-view {
+  display: flex;
+  justify-content: center;
+}
+
+.botao-btn-view {
+  background: linear-gradient(#251928, rgba(37, 25, 40, 0));
+  width: 257px;
+  height: 84px;
+  border: solid #ffce4e;
+  color: #ffffff;
+  font-family: Work Sans;
+  font-weight: medium;
+  font-size: 2rem;
+}
