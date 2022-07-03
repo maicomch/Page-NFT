@@ -14,7 +14,7 @@
   text-align: center;
   flex-direction: row;
   justify-content: center;
-  gap: 12rem;
+  gap: 3rem;
 }
 .imagens-works {
   background-color: #372839;
@@ -29,13 +29,10 @@
   padding-top: 37px;
 }
 .imagen-sub {
-  position: relative;
-  left: 150px;
-  bottom: 40px;
-}
-.imagen-sub img {
+  text-align: center;
   width: 166px;
   height: 15px;
+  padding-top: 50px;
 }
 
 .imagen-subtitle {

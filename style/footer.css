@@ -1,101 +1,91 @@
 footer {
-    display: flex;
-    background-color: #251928;
-    padding: 109px 80px;
-    justify-content: space-between;
+  display: flex;
+  background-color: #251928;
+  padding: 109px 80px;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .social-media {
-    display: flex;
-    flex-direction: column;
-    margin-left: 50px;
-    margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 391px;
+  height: 220px;
+  justify-content: space-between;
 }
 
-#nft {
-    max-width: 194px;
-    max-height: 194px;
-}
-
-.social-media img {
-    width: 194px;
-    height: 194px;
+.nft-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 194px;
+  height: 194px;
 }
 
 .social-media span {
-    font-family: "Work Sans";
-    font-size: 20px;
-    font-weight: 400;
-    color: #96839B;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-weight: 400;
+  color: #96839b;
 }
 
 .footer-links {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
 }
 
 .footer-links ul {
-    list-style: none;
-    font-family: "Work Sans";
+  list-style: none;
+  font-family: "Work Sans";
 }
 
 .footer-links ul li {
-    font-size: 24px;
-    font-weight: 700;
-    color: #F5FBF2;
-    padding-top: 20px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #f5fbf2;
+  padding-top: 20px;
 }
 
 .footer-links ul a {
-    text-decoration: none;
-    font-size: 20;
-    font-weight: 500;
-    color: #96839B;
-}
-
-footer .social-media .text-social-media {
-    max-width: 391px;
-    height: 92px;
+  text-decoration: none;
+  font-size: 20;
+  font-weight: 500;
+  color: #96839b;
 }
 
 #youtube {
-    width: 38px;
-    height: 27px;
-    margin-right: 33px;
+  width: 38px;
+  height: 27px;
+  margin-right: 33px;
 }
 
 #twitter {
-    width: 33px;
-    height: 27px;
-    margin-right: 33px;
+  width: 33px;
+  height: 27px;
+  margin-right: 33px;
 }
 
 #facebook {
-    width: 14px;
-    height: 27px;
-    margin-right: 33px;
+  width: 14px;
+  height: 27px;
+  margin-right: 33px;
 }
 
 #google {
-    width: 28px;
-    height: 27px;
-    margin-right: 33px;
+  width: 28px;
+  height: 27px;
+  margin-right: 33px;
 }
 
-.social-icons {
-    padding: 20px 0px
-}
-
-.about-us-list {
-    font-size: 20px;
-    font-weight: 500;
-    width: 132px;
-    height: 202px;
-}
-
-.support-list {
-    font-size: 20px;
-    font-weight: 500;
-    width: 149px;
-    height: 202px;
+@media (min-width: 0px) and (max-width: 1160px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center space-between;
+  }
 }
